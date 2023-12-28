@@ -1,0 +1,120 @@
+
+#wrapper{
+    height: 100vh;
+}
+#heading{
+    color: rgb(35, 250, 178);
+    text-align: center;
+    font-family: cursive;
+    font-size: 40px;
+    font-weight: 900;
+}
+
+#main-page{
+    height: 100vh;
+    display: flex;
+    gap: 50px;
+    margin: 20px 50px;
+    justify-content: center;
+    align-items: center;
+    /* flex-wrap: wrap; */
+}
+
+#section1{
+    /* width: 50%; */
+    width: 100vh;
+
+    height: 100vh;
+    background-color: rgb(204, 251, 235);
+    border: 5px solid rgb(157, 231, 204);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+    padding: 10px;
+    overflow: hidden;
+}
+
+#section1 input{
+    /* width: 180px; */
+    width: 80%;
+    border-radius: 5px;
+    /* margin-top: 10px; */
+    margin: 10px;
+    text-align: center;
+    border: none;
+    outline: none;
+    background: #a5f4d8;
+}
+
+#section2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+    width: 100vh;
+    /* height: 90vh; */
+    background-color: rgb(204, 251, 235);
+    border: 5px solid rgb(157, 231, 204);
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.sec{
+    display: flex;
+    gap: 8px;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    /* margin-top: 20px; */
+}
+
+
+.fun{
+    padding-right: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(3, 105, 105);
+}
+
+.fun-inside{
+    border: none;
+    background-color: #7ef2e1;
+    border-radius: 5px;
+    font-style:oblique;
+    font-weight: 300;
+    font-size: 13px;
+    text-align: center;
+}
+
+.fun-inside option{
+    border: none;
+    
+}
+
+.history{
+    display: flex;
+    gap: 20px;
+}
+
+.btn{
+    outline: none;
+    border: 2px solid rgb(34, 218, 46);
+    border-radius: 5px;
+    background-color: rgb(161, 235, 151);
+    font-weight: 500;
+    font-size: large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:rgb(23, 19, 244);
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: rgb(8, 226, 95);
+}
+
+@media screen and (max-width: 600px){
+    #main-page{
+        flex-wrap: wrap;
+    }
+}
